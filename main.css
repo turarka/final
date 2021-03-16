@@ -1,0 +1,86 @@
+.row{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+.headerline{
+        background-color:#b2dbd3; }
+body {
+    background-color:#daede7;
+    font-family: "Inconsolata";
+}
+
+.pt-5 {
+    margin-left: 200px;
+}
+
+.card {
+    border-bottom: 8px solid #4d6569;
+}
+.about {
+    background: #b2dbd3;
+    border-radius: 0.5rem;
+    
+}
+
+.img-fluid {
+    width: 430px;
+    height: 270px;
+}
+
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #4d6569 ;
+    border-radius: 0.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    text-align: left;
+}
+.players1{
+    text-align: left;
+    margin-left: 50px;
+}
+.container1 {
+    text-align: right;
+}
+.players2{
+    margin-left: 1000px;
+    
+}
+.result{
+    text-align: center;
+    margin-left: 0px;
+}
+button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.container.fuild {
+    font-weight: 5000px;
+}
+.div1 {
+font-weight: 800px;
+}
+
+input[type=number]{
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    margin-right: 20px;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:0.3s;
+  }
+  
+  input[type=number]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }

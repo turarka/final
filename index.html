@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- Bootstrap CSS -->
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      
+        >
+    
+        <!-- Bootstrap Js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+        <!-- My CSS -->
+        <link rel="stylesheet" href="main.css"/>
+    
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;700&display=swap" rel="stylesheet">
+
+        <title>Final Project</title>
+    </head>
+    <body>
+      <nav class="headerline navbar navbar-expand-md">
+        <h3 class="d-inlne pt-3" style="color: #0b0c0a">SP<i class="fas fa-futbol" style="color:#0b0c0a"></i>RT24/7</h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="col-10 pt-7">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="http://localhost:3000/about" class="text-dark navigate">ABOUT US</a>
+                    </div>
+                    <div class="col-2">
+                      <a href="http://localhost:3000/" class="text-dark navigate">HOMEPAGE</a>
+                  </div>
+                </div>
+            </div>
+      </nav>
+      <div class="players1">
+      <label for="p1">Players of team 1 :</label>
+      <br>
+      <textarea id="team1"></textarea>
+      </div>
+      <br>
+      <div class="container">
+      <label for="starter">How many goals scored the team 1 :</label>
+      <br>
+         <input type="number" id="score1">
+         <br>
+      </div>
+      <div class="result" id="result">
+			<h1>VS</h1>
+		</div>
+    <br>
+      <div class="players2">
+      <label for="players1">Players of team 2 :</label>
+      <br>
+      <textarea id="team2"></textarea>
+      </div>
+      <br>
+      <div class="container1">
+      <label for="starter">How many goals scored the team 2 :</label>
+      <br>
+         <input type="number" id="score2">
+      </div> <br> <br> <br>
+      <button type="submit" id="submit">Generate Results</button>
+      <br> <br> <br>
+      <div1 id="contact" class="container-fluid" >
+        <div class=" text-black py-2 about px-3" style="margin-bottom:-100px;" >
+          <h3 style="color: #4d6569; text-align:center;">We are on Social Media</h3>
+          <div class="row pt-5">
+            <div class="col-3 media_link btn" href="#">
+              <div class="row">
+                <div class="col-6">
+                    <a class="m-0 pt-2 text-black" href="https://www.instagram.com/astana_it_university/" >Instagram</a>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-instagram fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 media_link btn" href="#">
+                <div class="row">
+                  <div class="col-6">
+                    <a class="m-0 pt-2 text-black" href="#" >Mail</a>
+                  </div>
+                  <div class="col-6 d-flex justify-content-end align-items-center">
+                    <i class="fas fa-envelope fa-2x text-secondary"></i>
+                  </div>
+                </div>
+            </div>
+            <div class="col-3 media_link btn" href="#">
+                <div class="row">
+                  <div class="col-6">
+                    <a class="m-0 pt-2 text-black" href="https://astanait.edu.kz/" >Web Site</a>
+                  </div>
+                  <div class="col-6 d-flex justify-content-end align-items-center">
+                    <i class="fas fa-globe fa-2x text-secondary"></i>
+                  </div>
+                </div>
+            </div>
+          
+      <footer class = "col-9">
+          <div class="container text-muted py-3 mt-5 text-center">
+          <h5 >Copyright &copy; 2020 |<a class="text-secondary text-decoration-none" href="#about"> Astana IT University | MT-2001</a></h5>
+        </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+    </html>
